@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+}
+.box {
+  @include flexBox();
+  background: green;
+  width: 64px;
+  height: 64px;
+}
+
+@mixin flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

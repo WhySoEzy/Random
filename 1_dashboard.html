@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <!-- Left sidebar -->
+  <div class="sidebar">
+    <div class="logo">
+      <img
+        src="https://assets-global.website-files.com/66042b9b8510efb7507c53de/6645ae3d11da6375407f1c1c_The%20Q-lib%20logo.svg"
+        alt=""
+      />
+    </div>
+    <!-- menu wrapper -->
+    <div class="menuWrapper">
+      <!-- menu top -->
+     <ul class="sidebarMenu">
+      <p id="menuSubtext" class="md-medium">Dashboard</p>
+      <li class="menuItem">
+        <div class="menuIcon">
+          <i class="ph ph-house"></i>
+        </div>
+        <p class="md-medium">Home</p>
+      </li>
+      <li class="menuItem">
+        <div class="menuIcon">
+          <i class="ph ph-user-circle-gear"></i>
+        </div>
+        <p class="md-medium">Manage</p>
+      </li>
+      <li class="menuItem">
+        <div class="menuIcon">
+          <i class="ph ph-file-text"></i>
+        </div>
+        <p class="md-medium">Report</p>
+      </li>
+      <li class="menuItem">
+        <div class="menuIcon">
+          <i class="ph ph-presentation-chart"></i>
+        </div>
+        <p class="md-medium">Analysis</p>
+      </li>
+     </ul>
+     <!-- sidebar divider -->
+     <div class="divider"></div>
+     <!-- menu bottom -->
+     <ul id="sidebarMenuBottom" class="sidebarMenu">
+      <p id="menuSubtext" class="md-medium">Support</p>
+      <li class="menuItem">
+        <div class="menuIcon">
+          <i class="ph ph-gear-six"></i>
+        </div>
+        <p class="md-medium">Setting</p>
+      </li>
+      <li class="menuItem">
+        <div class="menuIcon">
+          <i class="ph ph-headset"></i>
+        </div>
+        <p class="md-medium">Help center</p>
+      </li>
+      <li class="menuItem">
+        <div class="menuIcon">
+          <i class="ph ph-sign-out"></i>
+        </div>
+        <p class="md-medium">Sign out</p>
+      </li>
+     </ul>
+    </div>
+    <!-- theme switcher -->
+    <div id="switchTheme" class="themeToggle">
+      <div id="lightThumb" class="handleLight">
+        <p class="md-medium">Light</p>
+      </div>
+      <div id="darkThumb" class="handleDark">
+        <p class="md-medium">Dark</p>
+      </div>
+    </div>
+  </div>
+  <!-- Content area -->
+  <div class="contentArea">
+    <!-- header -->
+    <div class="header">
+      <input type="text" class="searchBar" placeholder="Search" />
+      <div class="user-noti">
+        <div class="notification">
+          <div class="badge"></div>
+          <i class="ph ph-bell-simple"></i>
+        </div>
+        <div class="userInfo">
+          <div class="avatar">S</div>
+          <p>Steven Nguyen</p>
+          <i class="ph ph-caret-down"></i>
+        </div>
+      </div>
+    </div>
+    <!-- main content -->
+    <section class="bodyContent">
+      <!-- content column 1 -->
+      <div id="col1" class="contentCol">
+        <!-- vBox 1 -->
+        <div class="verticalBox">
+          <div class="globalHeadline">
+            <p class="lg-bold">Overview</p>
+            <div class="blank"></div>
+          </div>
+          <!-- box w1 -->
+          <div class="boxWrap">
+            <div class="boxMetric">
+              <div class="boxIcon"><i class="ph ph-users-four"></i></div>
+              <p id="globalMetricText" class="sm-medium">Total of users</p>
+              <h1>4096</h1>
+            </div>
+            <!-- box w2 -->
+            <div class="boxMetric">
+              <div class="boxIcon"><i class="ph ph-user-circle-plus"></i></div>
+              <p id="globalMetricText" class="sm-medium">New users</p>
+              <h1>50</h1>
+            </div>
+            <!-- box w3 -->
+            <div class="boxMetric">
+              <div class="boxIcon"><i class="ph ph-star"></i></div>
+              <p id="globalMetricText" class="sm-medium">Positive rate</p>
+              <h1>65%</h1>
+            </div>
+            <!-- box w4 -->
+            <div class="boxMetric">
+              <div class="boxIcon"><i class="ph ph-user-circle-minus"></i></div>
+              <p id="globalMetricText" class="sm-medium">Customers leave</p>
+              <h1>5%</h1>
+            </div>
+          </div>
+        </div>
+        <!-- vBox 2 -->
+      <div id="noUnderline" class="verticalBox">
+        <div class="globalHeadline">
+          <p class="lg-bold">Best seller</p>
+        </div>
+        <!-- Food -->
+        <div class="boxHorizontal">
+          <button class="outline">
+            <i class="ph ph-caret-left"></i>
+          </button>
+          <div class="boxWrap6">
+            <div class="Food">
+              <img class="foodImg" src="Best seller/Salad.png" alt="">
+              <p class="md-regular">Salad</p>
+            </div>
+            <div class="Food">
+              <img class="foodImg" src="Best seller/Pizza.png" alt="">
+              <p class="md-regular">Pizza</p>
+            </div>
+            <div class="Food">
+              <img class="foodImg" src="Best seller/Cake.png" alt="">
+              <p class="md-regular">Cake</p>
+            </div>
+            <div class="Food">
+              <img class="foodImg" src="Best seller/Mix fruit.png" alt="">
+              <p class="md-regular">Mix fruit</p>
+            </div>
+            <div class="Food">
+              <img class="foodImg" src="Best seller/Fried chicken.png" alt="">
+              <p class="md-regular">Fried chicken</p>
+            </div>
+            <div class="Food">
+              <img class="foodImg" src="Best seller/Beef steak.png" alt="">
+              <p class="md-regular">Beef steak</p>
+            </div>
+          </div>
+          <button class="outline">
+            <i class="ph ph-caret-right"></i>
+          </button>
+        </div>
+      </div>
+     </div>
+      <!-- content column 2 -->
+     <div id="col2" class="contentCol">
+      <div class="globalHeadline">
+        <p class="lg-bold">Revenue</p>
+        <h4 class="semibold">$500.000</h4>
+      </div>
+      <div id="boxChart" class="boxChartHorizontal">
+        <button class="outline">
+          <i class="ph ph-caret-left"></i>
+        </button>
+        <img id="lineChart" src="Icon/Line chart.svg" alt="">
+        <button class="outline">
+          <i class="ph ph-caret-right"></i>
+        </button>
+      </div>
+     </div>
+
+     <div id="col3" class="contentCol">
+
+     </div>    
+    </section>
+    
+  <!-- JS -->
+  <script src="main.js"></script>
+</body>
+</html>
